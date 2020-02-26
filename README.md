@@ -26,9 +26,9 @@
 
 ---
 
-А, главное, все очень просто, главное практиковаться. Но я ленивая ~~какашка~~.
+А, главное, все очень просто, главное практиковаться и не ~~лениться~~.
 
-![](https://meduza.io/image/attachments/images/002/395/437/large/9T3mJ_KKykigmb6Am32FYQ.jpg)
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQjGIMEmDc4dbZGHl4F0UfLN7QH1X7xXfFERf7KV83o3uikhxZC)
 
 ##  I have goals:
 
