@@ -2,6 +2,16 @@
 
 # <p id="begin">Мой первый `Commit` с использованием ***MarkDown*** </p>
 
+##  I have goals:
+
+- [ ] Init project with npm;
+- [ ] Add webpack and webpack-dev-server;
+- [ ] Create webpack config with HtmlWebpackPlugin and Babel basic setup;
+- [ ] Add build and dev commands to package.js;
+- [ ] Add ESLinter to project with AirBnB config.
+
+*Когда придет время, я отмечу все пункты!*
+
 **Синтаксис MarkDown**:
 - Basic Syntax;
 - Extended Syntax. 
@@ -29,16 +39,6 @@
 А, главное, все очень просто, главное практиковаться и не ~~лениться~~.
 
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQjGIMEmDc4dbZGHl4F0UfLN7QH1X7xXfFERf7KV83o3uikhxZC)
-
-##  I have goals:
-
-- [ ] Init project with npm;
-- [ ] Add webpack and webpack-dev-server;
-- [ ] Create webpack config with HtmlWebpackPlugin and Babel basic setup;
-- [ ] Add build and dev commands to package.js;
-- [ ] Add ESLinter to project with AirBnB config.
-
-*Когда придет время, я отмечу все пункты!*
 
 <a href="#begin"> 
 <img src="https://s-lub.ru/uploads/posts/2018-05/thumbs/1525974184_1.png" width="100" align="right" alt="pic">
