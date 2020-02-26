@@ -32,10 +32,11 @@
 
 ##  I have goals:
 
-- [ ] start learning something new;
-- [ ] work hard;
-- [ ] find an interesting job;
-- [ ] have fun.
+- [ ] Init project with npm;
+- [ ] Add webpack and webpack-dev-server;
+- [ ] Create webpack config with HtmlWebpackPlugin and Babel basic setup;
+- [ ] Add build and dev commands to package.js;
+- [ ] Add ESLinter to project with AirBnB config.
 
 *Когда придет время, я отмечу все пункты!*
 
