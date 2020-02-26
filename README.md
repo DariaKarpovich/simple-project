@@ -31,21 +31,13 @@ I have goals:
 ---
 
 | Element | Markdown Syntax |
-
 | ----------- | ----------- |
-
 | ***Basic Syntax***|
-
 | Heading | `# H1 ## H2 ### H3`|
-
 | Bold | `**bold text**`|
-
 | Italic | `*italicized text*`|
-
 | ***Extended Syntax***|
-
 | Strikethrough | `~~The world is flat.~~`|
-
 | HeadingID | `### My Great Heading {#custom-id}`|
 
    
