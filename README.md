@@ -7,7 +7,7 @@
 3. <a href="#part3"> Conclusion </a>
 
   
-## <p id="part1" align = "center"> Tasks </p>
+# <p id="part1" align = "center"> Tasks </p>
 
 I have goals:
 
@@ -25,7 +25,7 @@ I have goals:
 
   
 
-## <p id="part2" align = "center"> Syntax MarkDown </p>
+# <p id="part2" align = "center"> Syntax MarkDown </p>
 
 **Синтаксис MarkDown**:
 - Basic Syntax;
@@ -53,7 +53,7 @@ I have goals:
 
   
 
-## <p id="part3" align = "center"> Conclusion </p>
+# <p id="part3" align = "center"> Conclusion </p>
 
   
 
