@@ -30,12 +30,12 @@
 
 ![](https://meduza.io/image/attachments/images/002/395/437/large/9T3mJ_KKykigmb6Am32FYQ.jpg)
 
-##  У меня есть цели:
+##  I have goals:
 
-- [ ] начать изучать что-то новое;
-- [ ] много-много трудиться;
-- [ ] найти интересную работу;
-- [ ] весело провести время.
+- [ ] start learning something new;
+- [ ] work hard;
+- [ ] find an interesting job;
+- [ ] have fun.
 
 *Когда придет время, я отмечу все пункты!*
 
