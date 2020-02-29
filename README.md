@@ -11,7 +11,7 @@
 I have goals: 
 
 - [x] Init project with npm;
-- [ ] Add webpack and webpack-dev-server;
+- [x] Add webpack and webpack-dev-server;
 - [ ] Create webpack config with HtmlWebpackPlugin and Babel basic setup;
 - [ ] Add build and dev commands to package.js;
 - [ ] Add ESLinter to project with AirBnB config.
