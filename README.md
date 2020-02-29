@@ -10,7 +10,7 @@
 
 I have goals: 
 
-- [ ] Init project with npm;
+- [x] Init project with npm;
 - [ ] Add webpack and webpack-dev-server;
 - [ ] Create webpack config with HtmlWebpackPlugin and Babel basic setup;
 - [ ] Add build and dev commands to package.js;
