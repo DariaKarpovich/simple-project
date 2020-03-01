@@ -6,7 +6,8 @@ module.exports = {
         compress: true,
         contentBase: path.join(__dirname, 'dist'),
         overlay: true,
-
-    }
-
+    },
+    stats: {
+        colors: true
+      }
 }
