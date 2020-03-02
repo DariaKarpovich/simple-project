@@ -20,12 +20,36 @@ module.exports = {
         colors: true
       },
 
+      module: {
+        rules: [
+            {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                use: {
+                    loader: 'babel-loader'
+                } 
+            },
+
+            {
+                test: /\.css$/,
+                use: [
+                  "style-loader",
+                  {
+                    loader: "css-loader",
+                    options: {
+                      modules: true
+                    }
+                  }
+                ]
+            },
+        ]
+    },
+
     plugins: [
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
             template: path.resolve(__dirname, 'src', 'index.html')
-        }
-            )
+        })
         ]
     
 }
