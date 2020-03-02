@@ -1,1 +1,1 @@
-alert('Hello! its script')
+document.getElementById("step").innerHTML = 'Hello! its script';
