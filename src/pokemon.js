@@ -1,5 +1,5 @@
-import PokemonImg from '../src/assets/images/giphy.gif';
-import '../src/styles/index.scss';
+import PokemonImg from './assets/images/giphy.gif';
+import './styles/index.scss';
 
 const wrapper = document.createElement('div');
 wrapper.classList.add('pokemon-wrapper');

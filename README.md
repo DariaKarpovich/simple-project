@@ -12,9 +12,9 @@ I have goals:
 
 - [x] Init project with npm;
 - [x] Add webpack and webpack-dev-server;
-- [ ] Create webpack config with HtmlWebpackPlugin and Babel basic setup;
-- [ ] Add build and dev commands to package.js;
-- [ ] Add ESLinter to project with AirBnB config.
+- [x] Create webpack config with HtmlWebpackPlugin and Babel basic setup;
+- [x] Add build and dev commands to package.js;
+- [x] Add ESLinter to project with AirBnB config.
 
 *Когда придет время, я отмечу все пункты!*
  
