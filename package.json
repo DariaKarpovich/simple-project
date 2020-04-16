@@ -4,10 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server",
+    "dev": "webpack-dev-server -d",
     "build": "webpack",
     "watch": "webpack --watch",
+    "preinstall": "npx npm-force-resolutions",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "resolutions": {
+    "graceful-fs": "4.2.3"
   },
   "keywords": [],
   "author": "",
@@ -31,5 +35,17 @@
     "webpack-dev-server": "^3.10.3",
     "webpackbar": "^4.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "dependencies": "0.0.1",
+    "graceful-fs": "^4.2.3",
+    "gulp": "^4.0.2",
+    "gulp-util": "^3.0.8",
+    "jquery": "^3.4.1",
+    "minimatch": "^3.0.4",
+    "minimist": "^1.2.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Dasha/repository.git"
+  }
 }
