@@ -6,7 +6,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
 
   mode: 'development',
-  devtool: 'inline-source-map',
+  devtool: 'source-map',
   entry: path.resolve(__dirname, 'src', 'index.js'),
   output: {
     path: path.resolve(__dirname, './dist'),
@@ -15,6 +15,9 @@ module.exports = {
   context: path.resolve(__dirname, 'src'),
   resolve: {
     extensions: ['.js', '.json'],
+    alias: {
+      'semantic-ui': path.join(__dirname, 'node_modules', 'semantic-ui-css', 'semantic.js'),
+    },
   },
 
   stats: {

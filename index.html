@@ -2,8 +2,67 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <title> <%= htmlWebpackPlugin.options.title %> </title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css" rel="stylesheet"/>
   </head>
+
   <body>
-    <div id='app'></div>
+
+    <div class="ui secondary pointing menu">
+      <div class="ui buttons">
+        <button class="ui labeled icon button" id = 'back'>
+          <i class="left chevron icon"></i> Back </button>
+        <button class="ui button" id = 'sort'> Sort </button>
+        <button class="ui right labeled icon button" id = 'next'> Next
+          <i class="right chevron icon"></i> </button>
+      </div>
+      <div class="right menu">
+        <div class="ui disabled icon input">
+          <i class="search icon"></i>
+          <input type="text" id = 'search' placeholder="Search...">
+        </div>
+      </div>
+    </div>
+
+    <div class="ui piled segment">
+      <div class="ui two cards">
+        <div class='card'>
+          <div class="ui seven doubling cards" id='pole'></div>
+        </div>
+        <div class="card">
+          <div class="ui centered small image" id = 'img'> </div>
+          <div class="content">
+            <div class="header" id='infoName'></div>
+            <div class="description">
+              <p id='typePokemon'></p>
+              <p id='infoHe'></p>
+              <p id='infoAbility'></p>
+              <p id='infoSkill'></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+
+    <div hidden='true' id='divComment'>
+      <div class="ui segment">
+        <div class="ui two column very relaxed grid">
+          <div class="column">
+            <div class="ui comments">
+              <h3 class="ui dividing header">Comments</h3>
+              <div id='comments'></div> 
+            </div> 
+          </div>
+          <div class="column">
+            <form class="ui reply form">
+              <input type='text' id='userName' placeholder="Your name...">
+              <textarea id='textComment' placeholder="Your comment..."></textarea>
+              <button class="ui submit button" id='addComment'>Add comment</button>
+            </form>
+          </div>
+        </div>
+      </div> 
+    </div> 
+
+  </body>
 </html>
